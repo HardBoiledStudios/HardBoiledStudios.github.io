@@ -1,2 +1,0 @@
-# MacroHardStudio.github.io
-Website
