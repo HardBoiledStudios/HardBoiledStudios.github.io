@@ -325,6 +325,13 @@ input[type="text"] {
   border: 1px solid #ccc;
   padding: 0 15px;
 }
+select {
+  width: 220px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+}
 input[type="tel"] {
   width: 220px;
   height: 40px;
@@ -351,7 +358,7 @@ button[type="submit"] {
   display: inline-block;
   background: #ee3643;
   color: #fff;
-  font-family: jaapokki;
+  font-family: the-bold-font;
   border: none;
   padding: 0 20px;
 }
@@ -1372,6 +1379,7 @@ footer {
   float: left;
   padding: 100px 0;
   text-align: center;
+  margin-top: 85px;
 }
 .contact-form .form-group {
   width: 100%;
@@ -1383,6 +1391,10 @@ footer {
   font-weight: normal;
 }
 .contact-form input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+}
+.contact-form select {
   width: 100%;
   max-width: 400px;
 }
@@ -1408,6 +1420,13 @@ footer {
 }
 .contact-form #error p {
   color: #c0392b;
+}
+
+.contact-form h1 {
+  font-size: 50px;
+  font-family: the-bold-font;
+  color: #1d1d1d;
+  margin: auto;
 }
 
 /* CAREER */
