@@ -544,6 +544,14 @@ footer {
   margin-top: 85px;
 }
 
+.yolked-img {
+  margin-top: 85px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
 /* SHOWCASE */
 .showcase {
   width: 100%;
@@ -1944,6 +1952,12 @@ footer .sub-footer ul li a {
   }
   .showcase h3 {
     font-size: 20px;
+  }
+  .yolked-video {
+    display: none;
+  }
+  .yolked-img {
+    display: block;
   }
   .showcase .showcase-img {
     width: 100% !important;
