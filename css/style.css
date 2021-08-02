@@ -1867,7 +1867,7 @@ footer .sub-footer {
 }
 footer .sub-footer .copyright {
   float: left;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #999;
 }
@@ -1880,7 +1880,7 @@ footer .sub-footer ul li {
 }
 footer .sub-footer ul li a {
   float: left;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #666;
 }
