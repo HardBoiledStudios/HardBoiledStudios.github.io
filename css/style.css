@@ -377,7 +377,7 @@ label {
 }
 textarea {
   width: 320px;
-  height: 110px;
+  height: 200px;
   display: inline-block;
   border: 1px solid #ccc;
   padding: 15px;
@@ -1400,7 +1400,7 @@ footer {
 }
 .contact-form textarea {
   width: 100%;
-  max-width: 520px;
+  max-width: 400px;
 }
 .contact-form .alert {
   width: 100%;
