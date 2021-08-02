@@ -555,12 +555,15 @@ footer {
 }
 .width-40 {
   width: 40%;
+  height: 100%;
 }
 .width-60 {
   width: 60%;
+  height: 100%;
 }
 .width-70 {
   width: 70%;
+  height: 100%;
 }
 .float-right {
   float: right;
