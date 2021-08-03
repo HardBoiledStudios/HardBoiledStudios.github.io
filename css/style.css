@@ -1326,6 +1326,13 @@ footer {
   padding: 200px 0 80px 0;
   background-color: #eaead5;
 }
+.playtesting-info {
+  width: 100%;
+  float: left;
+  padding: 200px 0 250px 0 !important;
+  background-color: #eaead5;
+  margin-bottom: -300px;
+}
 .contact-info h1 {
   font-size: 50px;
   font-family: the-bold-font;
@@ -1400,6 +1407,10 @@ footer {
   text-decoration: underline;
 }
 
+.contact-info .redtext {
+  color: #e94e29 !important;
+}
+
 /* CONTACT FORM */
 .contact-form {
   width: 100%;
@@ -1407,14 +1418,27 @@ footer {
   padding: 300px 0 100px 0;
   text-align: center;
   background-color: #143f70;
-  background: no-repeat url("../images/Discord-BG.png");
+  background: no-repeat url("../images/Playtesting-BG.png");
   background-size: cover;
+}
+.playtest-form {
+  padding: 100px 0 100px 0 !important;
+}
+.contact-form .playtest-mobile {
+  display: none;
 }
 .contact-form .form-wrapper {
   background: no-repeat url(../images/Yellow-Pinned-Paper.png);
   background-size: 600px;
   padding: 60px 10px;
   margin: 5px;
+  background-position: top center;
+}
+.contact-form .playtest-form-wrapper {
+  background: no-repeat url(../images/Red-Pinned-Paper.png);
+  background-size: 620px;
+  padding: 75px 10px;
+  margin: 200px 5px 5px 5px;
   background-position: top center;
 }
 .contact-form .form-group {
@@ -2066,6 +2090,9 @@ footer .sub-footer ul li a {
   .features-list ul li {
     font-size: 14px;
   }
+  .playtesting-info {
+    margin-bottom: -300px;
+  }
   .contact-info img {
     height: 30px;
     width: 30px;
@@ -2075,6 +2102,12 @@ footer .sub-footer ul li a {
   }
   .contact-info .social-media-row {
     width: 300px;
+  }
+  .contact-form .playtest-desktop {
+    display: none;
+  }
+  .contact-form .playtest-mobile {
+    display: block;
   }
   .career .col-md-4 {
     margin-bottom: 80px;
