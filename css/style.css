@@ -960,7 +960,7 @@ footer {
   font-size: 30px;
   letter-spacing: 20px;
   color: #fff;
-  font-family: jaapokki;
+  font-family: the-bold-font;
 }
 .navigation nav ul li a:hover {
   text-decoration: none;
@@ -1987,8 +1987,9 @@ footer .sub-footer ul li a {
 @media only screen and (max-width: 989px),
   only screen and (max-device-width: 989px) {
   .navigation {
-    background: url(../images/nav-bg-image.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(../images/nav-bg-image.jpg) no-repeat;
+    background-size: cover; */
+    background-color: #262626;
   }
   .showcase .portfolio-masonry li {
     width: 50% !important;
