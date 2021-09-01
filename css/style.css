@@ -1346,6 +1346,9 @@ footer {
   background-color: #eaead5;
   margin-bottom: -300px;
 }
+.playtest-padding {
+  padding: 0 30px;
+}
 .thank-you-newsletter {
   width: 100%;
   float: left;
@@ -1428,6 +1431,10 @@ footer {
 
 .contact-info .redtext {
   color: #e94e29 !important;
+}
+
+.contact-info .orangetext {
+  color: #ee964b !important;
 }
 
 /* NEWSLETTER */
