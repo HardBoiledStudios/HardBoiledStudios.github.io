@@ -1184,7 +1184,7 @@ footer {
 .title-box .shape {
   font-family: jaapokki;
   font-size: 30px;
-  margin: 40px 0;
+  /* margin: 40px 0; */
   color: #ee3643;
 }
 
@@ -1333,6 +1333,12 @@ footer {
   background-color: #eaead5;
   margin-bottom: -300px;
 }
+.thank-you-newsletter {
+  width: 100%;
+  float: left;
+  background-color: #eaead5;
+  margin-bottom: -300px;
+}
 .contact-info h1 {
   font-size: 50px;
   font-family: the-bold-font;
@@ -1411,6 +1417,44 @@ footer {
   color: #e94e29 !important;
 }
 
+/* NEWSLETTER */
+.newsletter-form {
+  width: 100%;
+  float: left;
+  padding: 100px 0 100px 0;
+  text-align: center;
+  background-color: #143f70;
+}
+
+.newsletter-form .form-wrapper {
+  background: no-repeat url(../images/Orange-Pinned-Paper.png);
+  background-size: 600px;
+  padding: 60px 10px;
+  margin: 5px;
+  background-position: top center;
+}
+
+.newsletter-form input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+}
+.newsletter-form input[type="email"] {
+  width: 100%;
+  max-width: 400px;
+}
+
+.newsletter-form .blacktext {
+  color: #1d1d1d;
+}
+
+.newsletter-form h1 {
+  font-size: 50px;
+  font-family: the-bold-font;
+  color: #f2c631;
+  margin: auto;
+  text-align: center;
+}
+
 /* CONTACT FORM */
 .contact-form {
   width: 100%;
@@ -1422,11 +1466,11 @@ footer {
   background-size: cover;
 }
 .playtest-form {
-  padding: 100px 0 100px 0 !important;
+  padding: 0 0 100px 0 !important;
 }
-.contact-form .playtest-mobile {
+/* .contact-form .playtest-mobile {
   display: none;
-}
+} */
 .contact-form .form-wrapper {
   background: no-repeat url(../images/Yellow-Pinned-Paper.png);
   background-size: 600px;
@@ -1451,6 +1495,10 @@ footer {
   font-weight: normal;
 }
 .contact-form input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+}
+.contact-form input[type="email"] {
   width: 100%;
   max-width: 400px;
 }
@@ -1552,7 +1600,7 @@ footer {
 .wave-awards {
   width: 100%;
   float: left;
-  padding: 250px 0 100px 0;
+  padding: 400px 0 100px 0;
   background-color: #143f70;
   background: no-repeat url("../images/Discord-BG.png");
   background-size: cover;
@@ -1563,6 +1611,7 @@ footer {
   font-family: the-bold-font;
   color: #eaead5;
   margin: auto;
+  text-align: center;
 }
 .wave-awards h3 {
   font-size: 14px;
@@ -1592,9 +1641,18 @@ footer {
 .wave-awards img {
   height: 100%;
 }
+
+.discord-container {
+  place-content: center;
+  align-items: center;
+}
+.join-us {
+  margin: 0 !important;
+}
 .discord-img {
-  width: 40%;
-  padding: 50px;
+  width: 25%;
+  padding: 15px;
+  margin-left: 0;
 }
 .wave-awards p {
   font-weight: 300;
@@ -2046,8 +2104,12 @@ footer .sub-footer ul li a {
   .showcase .showcase-img {
     width: 100% !important;
   }
+  .join-us {
+    margin: auto;
+  }
   .discord-img {
     width: 100%;
+    margin: auto;
     text-align: center;
   }
   .discord-img img {
@@ -2104,9 +2166,9 @@ footer .sub-footer ul li a {
   .contact-info .social-media-row {
     width: 300px;
   }
-  .contact-form .playtest-desktop {
+  /* .contact-form .playtest-desktop {
     display: none;
-  }
+  } */
   .contact-form .playtest-mobile {
     display: block;
   }
