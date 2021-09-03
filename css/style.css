@@ -1353,8 +1353,10 @@ footer {
   width: 100%;
   float: left;
   background-color: #eaead5;
-  margin-bottom: -300px;
-  padding: 0 30px;
+  margin-bottom: -200px;
+}
+.thank-you-mb {
+  margin-bottom: 150px !important;
 }
 .contact-info h1 {
   font-size: 50px;
