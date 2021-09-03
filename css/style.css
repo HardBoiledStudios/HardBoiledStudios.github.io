@@ -1354,6 +1354,7 @@ footer {
   float: left;
   background-color: #eaead5;
   margin-bottom: -300px;
+  padding: 0 30px;
 }
 .contact-info h1 {
   font-size: 50px;
