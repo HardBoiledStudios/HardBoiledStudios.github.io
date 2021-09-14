@@ -271,7 +271,7 @@ html {
 
 /* LINKS */
 a {
-  color: #1d1d1d;
+  color: #e94e29;
 }
 a {
   -webkit-transition: 0.25s ease-in-out;
@@ -306,6 +306,9 @@ b {
 }
 u {
   text-decoration: underline;
+}
+hr {
+  border-top: 1px solid #1d1d1d;
 }
 
 .flex-row {
@@ -1555,6 +1558,14 @@ footer {
 }
 .contact-form #error p {
   color: #c0392b;
+}
+
+.contact-info a {
+  color: #1d1d1d;
+}
+
+.contact-info a:hover {
+  color: #e94e29;
 }
 
 .contact-form .blacktext {
