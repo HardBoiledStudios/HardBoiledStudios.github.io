@@ -1121,11 +1121,12 @@ footer {
 .news {
   width: 100%;
   float: left;
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
   text-align: center;
   background-color: #143f70;
   background: no-repeat url("../images/Blog-BG.png");
   background-size: cover;
+  padding: 200px 0 0 0 !important;
 }
 .news .news-post {
   width: 100%;
