@@ -615,6 +615,10 @@ footer {
 .showcase .logo {
   margin-top: 30%;
 }
+.showcase .wishlist {
+  margin-top: 8%;
+  margin-bottom: 15%;
+}
 .showcase h1 {
   color: #1d1d1d;
   font-size: 45px;
